@@ -1,0 +1,28 @@
+.products-main {
+    padding-top: 50px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    text-align: center;
+}
+
+.product {
+    border: 1px solid #dfdcdc;
+    display: grid;
+    grid-template-rows: 350px auto 50px 50px;
+}
+
+.price {
+    color: #f32247;
+}
+
+.btn {
+    width: 100px;
+    margin: 0 auto;
+    height: 40px;
+    text-align: center;
+    line-height: 35px;
+    background-color: #c5c2c2;
+}
